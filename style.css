@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(/backgrounds/h_img.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.content {
+  /* position: absolute; */
+  top: 20px;
+}
+.welcome {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#click {
+  margin-top: 290px;
+}
+
+/* about us */
+.about {
+  text-align: center;
+}
