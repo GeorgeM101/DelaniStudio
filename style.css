@@ -12,8 +12,7 @@
   margin-top: 10px;
 }
 .content {
-  /* position: absolute; */
-  top: 20px;
+  margin-top: 20px;
 }
 .welcome {
   text-transform: uppercase;
@@ -25,6 +24,9 @@
 }
 
 /* about us */
+
 .about {
+  font-size: 14px;
   text-align: center;
+  margin-top: 20px;
 }
