@@ -27,6 +27,15 @@
 
 .about {
   font-size: 14px;
+  /* width: 90%; */
   text-align: center;
-  margin-top: 20px;
+  margin: 20px;
+}
+.services {
+  background-image: url(/backgrounds/s_image.jpg);
+  background-size: cover;
+}
+.texts {
+  color: white;
+  text-align: center;
 }
