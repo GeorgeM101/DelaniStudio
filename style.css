@@ -1,9 +1,9 @@
 * {
-  margin: 20px;
+  margin: 0;
   padding: 0;
 }
 
-.container {
+.content {
   background-image: url(/backgrounds/h_img.jpg);
   background-size: cover;
   text-align: center;
@@ -11,9 +11,7 @@
   font-size: 14px;
   margin-top: 10px;
 }
-.content {
-  margin-top: 20px;
-}
+
 .welcome {
   text-transform: uppercase;
   text-align: center;
@@ -47,6 +45,38 @@
 
 .select {
   display: flex;
+  position: relative;
+  left: 150px;
   justify-content: space-between;
   text-align: center;
+  width: 80%;
+}
+.container {
+  display: inline;
+  margin: auto;
+  align-items: center;
+  margin: auto;
+}
+.portfolio {
+  display: flex;
+  margin-left: 200px;
+}
+#work {
+  margin: 10px;
+  justify-content: space-between;
+}
+#work:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.images {
+  text-align: center;
+}
+
+/* contact us */
+.contacts {
+  background-image: url(/backgrounds/c_image.jpg);
+  text-align: center;
+  color: white;
 }
