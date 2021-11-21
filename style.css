@@ -5,11 +5,17 @@
 
 .content {
   background-image: url(/backgrounds/h_img.jpg);
+  text-transform: uppercase;
   background-size: cover;
   text-align: center;
   color: white;
   font-size: 14px;
+  height: 800px;
   margin-top: 10px;
+}
+.logo {
+  position: relative;
+  top: 200px;
 }
 
 .welcome {
@@ -102,6 +108,7 @@
 
 #mess {
   background: transparent;
+  color: white;
   outline: none;
   height: 200px;
   width: 400px;
