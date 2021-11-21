@@ -25,6 +25,7 @@
 
 #click {
   margin-top: 290px;
+  animation: bounce 3s;
 }
 
 /* about us */
@@ -71,10 +72,10 @@
   margin: 10px;
   justify-content: space-between;
 }
-#work:hover {
+/* #work:hover {
   color: white;
   opacity: 0.7;
-}
+} */
 
 .images {
   text-align: center;
@@ -105,13 +106,29 @@
   display: flex;
   justify-content: space-around;
 }
+#name {
+  width: 350px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-left: 10px;
+  /* z-index: -1; */
+}
+#Email {
+  width: 350px;
+  background: transparent;
+  margin-left: 20px;
+  border: 1px solid white;
+  color: white;
+  /* z-index: -1; */
+}
 
 #mess {
   background: transparent;
   color: white;
   outline: none;
-  height: 200px;
-  width: 400px;
+  height: 250px;
+  width: 650px;
   border: 1px solid white;
 }
 
