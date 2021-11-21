@@ -77,6 +77,39 @@
 /* contact us */
 .contacts {
   background-image: url(/backgrounds/c_image.jpg);
+  height: auto;
   text-align: center;
   color: white;
+}
+
+.form {
+  align-items: center;
+  color: white;
+  /* position: absolute; */
+  top: -400px;
+  left: 400px;
+}
+#insert {
+  border: 1px solid white;
+  background: transparent;
+  outline: none;
+  color: white;
+}
+#item1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#mess {
+  background: transparent;
+  outline: none;
+  height: 200px;
+  width: 400px;
+  border: 1px solid white;
+}
+
+/* icons */
+.icons {
+  margin-top: 20px;
+  margin-left: 400px;
 }
