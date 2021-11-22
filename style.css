@@ -50,11 +50,14 @@
 }
 
 /* what we do */
-#wht {
-}
-
 .first {
-  /* display: none; */
+  display: none;
+}
+.second {
+  display: none;
+}
+.third {
+  display: none;
 }
 
 .portfolio {
