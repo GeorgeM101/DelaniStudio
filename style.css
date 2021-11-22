@@ -49,14 +49,17 @@
   text-align: center;
   /* margin-top: 100px; */
 }
-
+.one {
+  width: 250px;
+  text-align: center;
+  margin-right: -20px;
+}
 .select {
   display: flex;
   position: relative;
-  left: 150px;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
-  width: 80%;
+  width: 100%;
 }
 .container {
   display: inline;
