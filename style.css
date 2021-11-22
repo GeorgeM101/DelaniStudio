@@ -47,41 +47,12 @@
 .texts {
   color: white;
   text-align: center;
-  /* margin-top: 100px; */
 }
-.select {
-  margin-top: 30px;
-  position: relative;
-  /* left: -70px; */
-  /* justify-content: space-between; */
+
+/* what we do */
+#wht {
 }
-.one {
-  width: 250px;
-  text-align: center;
-  margin-right: -20px;
-}
-.first {
-  width: 350px;
-}
-.second {
-  width: 350px;
-}
-.third {
-  width: 300px;
-}
-.select {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  text-align: center;
-  width: 100%;
-}
-.container {
-  display: inline;
-  margin: auto;
-  align-items: center;
-  margin: auto;
-}
+
 .portfolio {
   display: flex;
   margin-left: 200px;
@@ -90,10 +61,6 @@
   margin: 10px;
   justify-content: space-between;
 }
-/* #work:hover {
-  color: white;
-  opacity: 0.7;
-} */
 
 .images {
   text-align: center;
@@ -110,7 +77,6 @@
 .form {
   align-items: center;
   color: white;
-  /* position: absolute; */
   top: -400px;
   left: 400px;
 }
@@ -130,15 +96,15 @@
   border: 1px solid white;
   color: white;
   margin-left: 10px;
-  /* z-index: -1; */
 }
+
 #Email {
   width: 350px;
   background: transparent;
   margin-left: 20px;
   border: 1px solid white;
   color: white;
-  /* z-index: -1; */
+  font-weight: bold;
 }
 
 #mess {
