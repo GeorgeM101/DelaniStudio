@@ -49,15 +49,30 @@
   text-align: center;
   /* margin-top: 100px; */
 }
+.select {
+  margin-top: 30px;
+  position: relative;
+  /* left: -70px; */
+  /* justify-content: space-between; */
+}
 .one {
   width: 250px;
   text-align: center;
   margin-right: -20px;
 }
+.first {
+  width: 350px;
+}
+.second {
+  width: 350px;
+}
+.third {
+  width: 300px;
+}
 .select {
   display: flex;
   position: relative;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   width: 100%;
 }
