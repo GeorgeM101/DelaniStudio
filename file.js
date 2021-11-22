@@ -48,7 +48,7 @@ function validate(){
   var messages = getElementById("mess");
 
   if(names.value === "" || emails.value === "" || messages.value === "")
-  alert("thank you")
+  alert("thank you");
 
 
 

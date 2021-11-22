@@ -53,6 +53,10 @@
 #wht {
 }
 
+.first {
+  /* display: none; */
+}
+
 .portfolio {
   display: flex;
   margin-left: 200px;
