@@ -39,7 +39,7 @@ function getResult(){
   const emails = document.getElementById("Email").value;
   const messages = document.getElementById("mess").value;
 
-  if(names == ''&& emails == ''&& messages == '') {
+  if(names == ''|| emails == ''|| messages == '') {
   alert("Thank you " + names + " your message was received");
 
   } else {
