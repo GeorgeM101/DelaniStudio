@@ -60,17 +60,25 @@
   display: none;
 }
 
-.portfolio {
-  display: flex;
-  margin-left: 200px;
-}
-#work {
-  margin: 10px;
-  justify-content: space-between;
-}
-
-.images {
+/* portfolio */
+#contain {
   text-align: center;
+  margin-top: 30px;
+}
+.work:hover {
+  color: white;
+  opacity: 0.2;
+}
+.over {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* contact us */
@@ -122,11 +130,13 @@
   width: 650px;
   border: 1px solid white;
 }
-
+#submit {
+  background-color: ;
+}
 /* icons */
 .icons {
   margin-top: 20px;
-  margin-left: 400px;
+  /* margin-left: 200px; */
 }
 /* footer */
 

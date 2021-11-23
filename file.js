@@ -34,15 +34,14 @@ $(document).ready(function(){
 
 
 
-function validate(){
-  var names = getElementById("name");
-  var emails = getElementById("Email");
-  var messages = getElementById("mess");
+function getResult(){
+  const names = document.getElementById("name").value;
+  const emails = document.getElementById("Email").value;
+  const messages = document.getElementById("mess").value;
 
-  if(names.value === "" || emails.value === "")
-  alert("thank you");
-  
+  if(names == ''&& emails == ''&& messages == '') {
+  alert("Thank you " + names + " your message was received");
 
-  
-}
-
+  } else {
+    alert(`input all fields`);
+  }}
