@@ -28,30 +28,21 @@ $(document).ready(function(){
       $(".img3").show(100);
     });
 });
-s
 
-$(document).ready(function(){
-    $('#work').hover(function () {
-    $(this).animate({opacity:'1'});
-    },
-    function () {
-    $(this).animate({opacity:'0'});
-});
-});
+
 
 
 
 
 function validate(){
   var names = getElementById("name");
-  var emails = getElementById("email");
+  var emails = getElementById("Email");
   var messages = getElementById("mess");
 
-  if(names.value === "" || emails.value === "" || messages.value === "")
+  if(names.value === "" || emails.value === "")
   alert("thank you");
+  
 
-
-
-
+  
 }
 
