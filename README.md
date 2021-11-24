@@ -12,7 +12,7 @@ George Mboya
 
 ## DESCRIPTION
 
-Delani studio is a website project to ehnace skilled learned implement skills learnt in bootstrap, javaScript and Jquery.
+Delani studio is a website project to ehnace and implement skills learnt in bootstrap, javaScript and Jquery.
 <br>
 **_project link_** https://georgem101.github.io/DelaniStudio/
 
