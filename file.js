@@ -40,8 +40,10 @@ function getResult(){
   const messages = document.getElementById("mess").value;
 
   if(names == ''|| emails == ''|| messages == '') {
-  alert("Thank you " + names + " your message was received");
+  alert(`input all fields`);
 
-  } else {
-    alert(`input all fields`);
+  } 
+  else {
+    alert("Thank you " + names + " your message was received");
+
   }}
